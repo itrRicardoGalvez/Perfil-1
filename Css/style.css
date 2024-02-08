@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: aqua;
 }
 
 h1 {
@@ -9,6 +10,7 @@ h1 {
 
 .emprendedor {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .emprendedor h2 {
