@@ -4,6 +4,57 @@ body {
     background-color: aqua;
 }
 
+header {
+    background-color: rgb(14, 230, 25);;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+}
+
+nav {
+    background-color: rgb(14, 230, 25);;
+    padding: 1px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+
+    background-color: purple;
+    width: 30%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0 15px 0 15px;
+}
+
+nav ul li:hover{
+    background-color: red;
+    width: 30%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0 15px 0 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    color: gold;
+    font-family: fantasy;
+    padding: 15px;
+}
+
 h1 {
     text-align: center;
 }
